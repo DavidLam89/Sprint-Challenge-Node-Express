@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+-Routing: a way to select which request handler function is executed based on the URL and the HTTP method
+-Middleware
+
 - [ ] Describe Middleware?
+
+Middleware is used to add extra functionality to Express application. There are 3 types of middleware: built-in, third-party, and custom middleware
 
 - [ ] Describe a Resource?
 
+a Resource is a piece of information, such as a single data record, a document, a photo, or a collection of data. Each resource is indentified by a URI and is accessed using HTTP methods
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+It can return the requested data objects or the count of modified data objects
+
 - [ ] How can we partition our application into sub-applications?
+
+We can use Express Router to map incoming requests to different URLs for each resource 
 
 ## Project Setup
 
